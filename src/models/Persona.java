@@ -31,6 +31,9 @@ public class Persona {
     public void setGender(char gender) {
         this.gender = gender;
     }
+    public int compareTo(Persona o){
+        
+    }
 
     @Override
     public String toString() {
